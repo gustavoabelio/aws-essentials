@@ -22,6 +22,16 @@ Official AWS documentation and complementary resources used throughout this repo
 - [S3 Storage Classes](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html)
 - [S3 Lifecycle Management](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html)
 
+## AWS Step Functions
+
+- [AWS Step Functions Documentation](https://docs.aws.amazon.com/step-functions/)
+- [Developer Guide](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
+
+## AWS CloudFormation
+
+- [AWS CloudFormation Documentation](https://docs.aws.amazon.com/cloudformation/)
+- [User Guide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
+
 ## Additional Resources
 
 - [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)

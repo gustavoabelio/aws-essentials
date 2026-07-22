@@ -52,6 +52,8 @@ AWS-ESSENTIALS
     └── references.md
 ```
 
+---
+
 ## References
 
 Official AWS documentation and additional resources are collected in [docs/references.md](docs/references.md).
