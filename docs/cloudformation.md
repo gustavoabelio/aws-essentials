@@ -4,7 +4,7 @@ AWS CloudFormation is an Infrastructure as Code (IaC) service that enables devel
 
 Instead of creating resources manually through the AWS Management Console, CloudFormation automates infrastructure deployment, making environments reproducible, consistent, and easier to maintain.
 
-This document introduces the core concepts of AWS CloudFormation, including templates, stacks, resources, parameters, and common use cases.
+This document introduces the core concepts of AWS CloudFormation, including templates, stacks, resources, parameters, outputs, and common use cases.
 
 ---
 
@@ -104,6 +104,21 @@ Outputs can also be referenced by other CloudFormation stacks.
 CloudFormation manages infrastructure changes by comparing the current stack with the updated template and applying only the required modifications whenever possible.
 
 This approach minimizes unnecessary resource replacement and simplifies infrastructure maintenance.
+
+---
+
+## CloudFormation vs Terraform
+
+AWS CloudFormation and Terraform are both Infrastructure as Code (IaC) tools, but they have different purposes and scopes.
+
+| AWS CloudFormation | Terraform |
+| ------------------ | --------- |
+| Native AWS service | Third-party tool developed by HashiCorp |
+| Supports AWS services only | Supports multiple cloud providers |
+| Uses JSON or YAML templates | Uses HCL (HashiCorp Configuration Language) |
+| Deep integration with AWS services | Designed for multi-cloud environments |
+
+CloudFormation is designed for AWS environments, while Terraform is commonly used when managing infrastructure across multiple cloud providers.
 
 ---
 

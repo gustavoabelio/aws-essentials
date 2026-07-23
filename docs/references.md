@@ -25,12 +25,12 @@ Official AWS documentation and complementary resources used throughout this repo
 ## AWS Step Functions
 
 - [AWS Step Functions Documentation](https://docs.aws.amazon.com/step-functions/)
-- [Developer Guide](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
+- [AWS Step Functions Developer Guide](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
 
 ## AWS CloudFormation
 
 - [AWS CloudFormation Documentation](https://docs.aws.amazon.com/cloudformation/)
-- [User Guide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
+- [AWS CloudFormation User Guide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
 
 ## Additional Resources
 
