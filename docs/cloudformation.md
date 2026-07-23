@@ -33,7 +33,15 @@ Templates are written in either:
 - JSON
 - YAML
 
-A template describes AWS resources and their configurations in a declarative format.
+A template describes AWS resources and their configurations in a declarative format. Templates can define one or multiple resources, allowing complete environments to be deployed from a single file.
+
+Example:
+
+```yaml
+Resources:
+  MyBucket:
+    Type: AWS::S3::Bucket
+```
 
 ---
 
@@ -93,9 +101,9 @@ Outputs can also be referenced by other CloudFormation stacks.
 
 ## Stack Updates
 
-CloudFormation manages infrastructure changes by comparing the current stack with the updated template.
+CloudFormation manages infrastructure changes by comparing the current stack with the updated template and applying only the required modifications whenever possible.
 
-When possible, resources are updated without requiring complete replacement, reducing deployment risks.
+This approach minimizes unnecessary resource replacement and simplifies infrastructure maintenance.
 
 ---
 
