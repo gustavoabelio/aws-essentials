@@ -83,8 +83,4 @@ The AWS CLI can be configured using the `aws configure` command, which stores cr
 
 ## References
 
-- AWS Documentation – Cloud Computing Concepts
-- AWS Documentation – Global Infrastructure
-- AWS Documentation – IAM
-- AWS Documentation – AWS Budgets
-- AWS Documentation – AWS CLI
+See [references.md](references.md) for the official AWS documentation and additional learning resources.
